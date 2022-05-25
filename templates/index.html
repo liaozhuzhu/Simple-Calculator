@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <title>Liao Simple Calculator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link href="../static/styles.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="calc-part calc-body" id="calcBody"></div>
+        <div class="calc-part calc-inside" id="calcInside"></div>
+        <div class="calc-part calc-button-add" id="calcButtonAdd"></div>
+        <div class="calc-part calc-button-sub" id="calcButtonSub"></div>
+        <div class="calc-part calc-button-time" id="calcButtonTime"></div>
+        <div class="calc-part calc-button-div" id="calcButtonDiv"></div>
+
+        <div>
+            <h1 class="main-title">Liao's Simple Calculator</h1>
+        </div>
+        <div class="entryTexts" id="bothEntries">
+            <input class="textBox" name="val-1" placeholder="Val 1" autofocus autocomplete="off" type="text" id="entryText">
+            <input class="textBox" name="val-2" placeholder="Val 2" autocomplete="off" type="text" id="entryText2">
+        </div>  
+        
+        <div id = "calcMiddle">
+            <form id="radio-buttons">
+                <div id="add">
+                    <input class="radioButtons" type="radio" name="opp" id="add-button" value="+" checked="checked">
+                    <label class="radioButtons" for="add-button" >+</label>
+                </div>
+                <div id="sub">
+                    <input class="radioButtons" type="radio" name="opp" id="sub-button" value="-">
+                    <label class="radioButtons" for="sub-button">-</label>
+                </div>
+                <div id="time">
+                    <input class="radioButtons" type="radio" name="opp" id="time-button" value="*">
+                    <label class="radioButtons" for="time-button">*</label>
+                </div>
+                <div id="div">
+                    <input class="radioButtons" type="radio" name="opp" id="div-button" value="/" >
+                    <label for="div-button">/</label>
+                </div>
+                
+            </form>
+        </div>
+            
+            
+        <div class="bottom" id="calcBottom">    
+            <input type="button" name="submitButton" value="CALCULATE" id="submit">
+            <input class="answerBox" name="result" placeholder="Result" disabled type="text" id="result-box">
+        </div>
+
+        <div>
+            <h2 id="select-theme-h2">SELECT THEME</h2>
+            <button class="theme-buttons" id="default-theme-button" value="default">DEFAULT</button>            
+            <button class="theme-buttons" id="light-theme-button" value="light">LIGHT</button>
+            <button class="theme-buttons" id="dark-theme-button" value="dark">DARK</button>
+        </div>
+
+        <div>
+            <h3 id="history">History</h3>
+            <input type="text" name="history" id="history-box" disabled>
+        </div>
+        <div>
+            <button id="ans-button">ANS</button>
+            <button id="clear-button">CLR</button>
+        </div>
+        
+
+        <script type="text/javascript" src="../script.js"></script>
+    </body>
+</html>
