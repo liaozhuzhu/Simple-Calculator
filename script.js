@@ -1,4 +1,4 @@
-//theme change testing github
+// theme change testing github
 //
 const bodyTag = document.getElementsByTagName("body")[0];
 const charTag = document.getElementsByTagName("h2")[0];
