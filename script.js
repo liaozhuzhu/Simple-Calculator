@@ -63,7 +63,7 @@ function getOpp() {
       return operand;
     }
   }
-  
+
 }
 
 
