@@ -1,7 +1,7 @@
 // theme change testing github
 //
 const bodyTag = document.getElementsByTagName("body")[0];
-const charTag = document.getElementsByTagName("h2")[0];
+const charTag = document.getElementById("select-theme-h2");
 const radioTag = document.getElementsByTagName("label");
 const partTag = document.getElementsByClassName("calc-part");
 
@@ -118,11 +118,10 @@ function useAnswer() {
     disableAns(true);
   }
   
-  
 }
 
 function disableAns(booIn) {
-  if(booIn==true) {
+  if(booIn == true) {
     document.getElementById("ans-button").disabled = true;
   }
   else {
@@ -131,10 +130,10 @@ function disableAns(booIn) {
 }
 
 function clearDisplay() {
-  var1.value="";
-  var2.value="";
-  resultVar.value="";
-  document.getElementById("history-box").value="";
+  var1.value = "";
+  var2.value = "";
+  resultVar.value = "";
+  document.getElementById("history-box").value = "";
   var1.focus();
 }
 
