@@ -101,9 +101,9 @@ function updateCalc() {
       document.getElementById("history-box").value=null;
     }
     else {
-      dictHistory[x+o+y] = result;
+      dictHistory[x + o + y] = result;
       dictKey = x+o+y
-      dictValue = dictHistory[x+o+y];
+      dictValue = dictHistory[x + o + y];
       document.getElementById("history-box").value=dictKey+" = "+dictValue;
       disableAns(false);
     }
