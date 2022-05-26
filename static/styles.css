@@ -523,8 +523,8 @@
     #entryText {
         margin: 0;
         position: absolute;
-        top: 39;
-        left: 18%;
+        top: 39%;
+        left: 45%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -540,7 +540,7 @@
         margin: 0;
         position: absolute;
         top: 39%;
-        left: 32%;
+        left: 57%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -556,33 +556,33 @@
     #add {
         position: absolute;
         top: 47%;
-        left: 12%;
+        left: 38%;
     }
     
     #sub {
         position:absolute;
         top: 47%;
-        left: 22%;
+        left: 45%;
     }
     
     #time {
         position: absolute;
         top: 54%;
-        left: 12%;
+        left: 38%;
     }
     
     #div {
         position:absolute;
         top: 54%;
-        left: 22%;
+        left: 45%;
     }
     .calc-button-add {
         position:absolute;
         top:46%;
-        left:11%;
+        left:37.5%;
         background-color: rgba(0,0,0,0);
         border: 1px solid black;
-        width: 7%;
+        width: 5%;
         height: 5%;
         border-radius: 5px;
         outline: 2px solid rgb(0, 0, 0);
@@ -591,10 +591,10 @@
     .calc-button-sub {
         position:absolute;
         top:46%;
-        left:20%;
+        left:44%;
         background-color: rgba(0,0,0,0);
         border: 1px solid black;
-        width: 7%;
+        width: 5%;
         height: 5%;
         border-radius: 5px;
         outline: 2px solid rgb(0, 0, 0);
@@ -603,10 +603,10 @@
     .calc-button-time {
         position:absolute;
         top:53%;
-        left:11%;
+        left:37.5%;
         background-color: rgba(0,0,0,0);
         border: 1px solid black;
-        width: 7%;
+        width: 5%;
         height: 5%;
         border-radius: 5px;
         outline: 2px solid rgb(0, 0, 0);
@@ -615,10 +615,10 @@
     .calc-button-div {
         position:absolute;
         top:53%;
-        left:20%;
+        left:44%;
         background-color: rgba(0,0,0,0);
         border: 1px solid black;
-        width: 7%;
+        width: 5%;
         height: 5%;
         border-radius: 5px;
         outline: 2px solid rgb(0, 0, 0);
@@ -628,7 +628,7 @@
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position:absolute;
         top: 46%;
-        left: 29%;
+        left: 53%;
         padding: 5px;
         border-radius: 1em;
         height: 5%;
@@ -643,7 +643,7 @@
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position:absolute;
         top: 53%;
-        left: 29%;
+        left: 53%;
         padding: 5px;
         border-radius: 1em;
         height: 30px;
@@ -658,7 +658,7 @@
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position:absolute;
         top: 53%;
-        left: 34.8%;
+        left: 59%;
         padding: 5px;
         border-radius: 1em;
         height: 30px;
@@ -672,18 +672,55 @@
     #history {
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         position:absolute;
-        top:66%;
-        left:11%;
+        top:68%;
+        left: 36.5%;
         font-size:20px;
         color:black;
     }
     
     #history-box {
         position:absolute;
-        top:74%;
-        left:11%;
+        top:76%;
+        left:36.5%;
         width: 250px;
         color:black;
+    }
+    .answerBox {
+        margin: 0;
+        position: absolute;
+        top: 65%;
+        left: 36.5%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        background-color: #ffffff;
+        border: solid black 3px;
+        width: 250px;
+        border-radius: 5px;
+        height: 25px;
+        outline:none;
+    }
+    .calc-body {
+        position: absolute;
+        top:30%;
+        left:35%;
+        height: 400px;
+        width: 300px;
+        padding: 5px;
+        border-radius: 1.5em;
+        background-color: rgb(255, 255, 255);
+        outline: 5px solid rgb(0, 0, 0);
+        box-shadow: rgba(29, 23, 23, 0.19) 0px 60px 120px, rgba(0, 0, 0, 0.23) 0px 60px 60px;
+    }
+    .calc-inside {
+        position:absolute;
+        top:35%;
+        left:36.5%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 280px;
+        height: 50px;
+        border-radius: 10px;
+        outline: 3px solid rgb(0, 0, 0);
     }
 }
 
