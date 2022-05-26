@@ -508,6 +508,184 @@
         color:black;
     }
 }
+@media (min-width:961px) {
+    .calc-inside {
+        position:absolute;
+        top:35%;
+        left:10.5%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 280px;
+        height: 50px;
+        border-radius: 10px;
+        outline: 3px solid rgb(0, 0, 0);
+    }
+    #entryText {
+        margin: 0;
+        position: absolute;
+        top: 39;
+        left: 18%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        background-color: #ffffff;
+        border: solid black 2.5px;
+        width: 100px;
+        border-radius: 5px;
+        height: 2%;
+        outline: none;
+    }
+    #entryText2 {
+        margin: 0;
+        position: absolute;
+        top: 39%;
+        left: 32%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        background-color: #ffffff;
+        border: solid black 2.5px;
+        width: 100px;
+        border-radius: 5px;
+        height: 2%;
+        outline: none;
+    }
+    
+    #add {
+        position: absolute;
+        top: 47%;
+        left: 12%;
+    }
+    
+    #sub {
+        position:absolute;
+        top: 47%;
+        left: 22%;
+    }
+    
+    #time {
+        position: absolute;
+        top: 54%;
+        left: 12%;
+    }
+    
+    #div {
+        position:absolute;
+        top: 54%;
+        left: 22%;
+    }
+    .calc-button-add {
+        position:absolute;
+        top:46%;
+        left:11%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 7%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+    
+    .calc-button-sub {
+        position:absolute;
+        top:46%;
+        left:20%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 7%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+    
+    .calc-button-time {
+        position:absolute;
+        top:53%;
+        left:11%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 7%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+    
+    .calc-button-div {
+        position:absolute;
+        top:53%;
+        left:20%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 7%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+    
+    #submit {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        top: 46%;
+        left: 29%;
+        padding: 5px;
+        border-radius: 1em;
+        height: 5%;
+        width: 11%;
+        margin: auto;
+        color:white;
+        background-color: #005eff;
+        box-shadow: rgba(29, 23, 23, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    #ans-button {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        top: 53%;
+        left: 29%;
+        padding: 5px;
+        border-radius: 1em;
+        height: 30px;
+        width: 50px;
+        margin: auto;
+        color:rgb(0, 0, 0);
+        background-color: #ffffff;
+        box-shadow: rgba(29, 23, 23, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    #clear-button {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        top: 53%;
+        left: 34.8%;
+        padding: 5px;
+        border-radius: 1em;
+        height: 30px;
+        width: 50px;
+        margin: auto;
+        color:rgb(0, 0, 0);
+        background-color: #ffffff;
+        box-shadow: rgba(29, 23, 23, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    #history {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        top:66%;
+        left:11%;
+        font-size:20px;
+        color:black;
+    }
+    
+    #history-box {
+        position:absolute;
+        top:74%;
+        left:11%;
+        width: 250px;
+        color:black;
+    }
+}
 
 
 
