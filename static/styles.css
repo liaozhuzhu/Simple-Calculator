@@ -2,7 +2,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
-@media (min-width:320px) {
+/*@media (min-width:320px) {*/
     .calc-body {
         position: absolute;
         top:30%;
@@ -235,7 +235,6 @@
         color:black;
     }
     
-}
 
 @media (min-width:481px) {
     #submit {
