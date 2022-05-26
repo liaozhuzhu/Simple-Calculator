@@ -55,12 +55,12 @@ let dictHistory = {};
 
 function getOpp() {
   let oppRadio = document.getElementsByName('opp');
-  let opperand = null;
+  let operand = null;
 
   for (let i = 0, length = oppRadio.length; i < length; i++) {
     if (oppRadio[i].checked) {
-      let opperand = oppRadio[i].value;
-      return opperand;
+      let operand = oppRadio[i].value;
+      return operand;
     }
   }
   
