@@ -802,5 +802,155 @@
     }
 }
 
+@media (min-width:1281px) {
+    #entryText {
+        margin: 0;
+        position: absolute;
+        top: 39%;
+        left: 43%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        background-color: #ffffff;
+        border: solid black 2.5px;
+        width: 100px;
+        border-radius: 5px;
+        height: 2%;
+        outline: none;
+    }
+    #entryText2 {
+        margin: 0;
+        position: absolute;
+        top: 39%;
+        left: 52%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        background-color: #ffffff;
+        border: solid black 2.5px;
+        width: 100px;
+        border-radius: 5px;
+        height: 2%;
+        outline: none;
+    }
+    #submit {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        top: 46%;
+        left: 47%;
+        padding: 5px;
+        border-radius: 1em;
+        height: 5%;
+        width: 11%;
+        margin: auto;
+        color:white;
+        background-color: #005eff;
+        box-shadow: rgba(29, 23, 23, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    #ans-button {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        top: 53%;
+        left: 47%;
+        padding: 5px;
+        border-radius: 1em;
+        height: 30px;
+        width: 50px;
+        margin: auto;
+        color:rgb(0, 0, 0);
+        background-color: #ffffff;
+        box-shadow: rgba(29, 23, 23, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    #clear-button {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        position:absolute;
+        top: 53%;
+        left: 54%;
+        padding: 5px;
+        border-radius: 1em;
+        height: 30px;
+        width: 50px;
+        margin: auto;
+        color:rgb(0, 0, 0);
+        background-color: #ffffff;
+        box-shadow: rgba(29, 23, 23, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+    
+    #add {
+        position: absolute;
+        top: 47%;
+        left: 37%;
+    }
+    
+    #sub {
+        position:absolute;
+        top: 47%;
+        left: 42%;
+    }
+    
+    #time {
+        position: absolute;
+        top: 54%;
+        left: 37%;
+    }
+    
+    #div {
+        position:absolute;
+        top: 54%;
+        left: 42%;
+    }
+    .calc-button-add {
+        position:absolute;
+        top:46%;
+        left:36.5%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 4%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+    
+    .calc-button-sub {
+        position:absolute;
+        top:46%;
+        left:41.5%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 4%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+    
+    .calc-button-time {
+        position:absolute;
+        top:53%;
+        left:36.5%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 4%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+    
+    .calc-button-div {
+        position:absolute;
+        top:53%;
+        left:41.5%;
+        background-color: rgba(0,0,0,0);
+        border: 1px solid black;
+        width: 4%;
+        height: 5%;
+        border-radius: 5px;
+        outline: 2px solid rgb(0, 0, 0);
+    }
+}
+
 
 
