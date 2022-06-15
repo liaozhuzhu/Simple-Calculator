@@ -6,7 +6,7 @@ const radioTag = document.getElementsByTagName("label");
 const partTag = document.getElementsByClassName("calc-part");
 
 
-function changeToDefaultTheme() {
+function changeToDefaultTheme() { 
   bodyTag.style.backgroundColor = "#ffb6c1";
   charTag.style.color = "#000000";
   for(let i=0; i<radioTag.length; i++) {
@@ -167,10 +167,3 @@ function checkEnterKeyPress(key) {
 document.getElementById("default-theme-button").addEventListener("click", changeToDefaultTheme);
 document.getElementById("light-theme-button").addEventListener("click", changeToLightTheme);
 document.getElementById("dark-theme-button").addEventListener("click", changeToDarkTheme);
-
-
-//finished and testing github
-
-
-
-
