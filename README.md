@@ -1,4 +1,4 @@
-# simple-calculator
+Simple Calculator
 
 Simple calculator with two inputs and an operand option
 
